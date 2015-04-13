@@ -14,6 +14,11 @@
 
 @implementation ViewController
 
+- (void)requiredTask:(NSString *)theRequiredTask {
+    NSLog(@"%@", theRequiredTask);
+}
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.

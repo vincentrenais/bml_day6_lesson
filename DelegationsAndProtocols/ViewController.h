@@ -7,9 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Task.h"
 
-@interface ViewController : UIViewController
+
+@interface ViewController : UIViewController<TaskDelegate>
+
+@property (strong) NSString *name;
+@property (strong) NSMutableArray *lisOfTasks;
 
 
 @end
-
