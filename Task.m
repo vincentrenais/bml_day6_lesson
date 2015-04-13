@@ -10,4 +10,8 @@
 
 @implementation Task
 
+- (void)generateReport {
+
+}
+
 @end

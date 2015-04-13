@@ -15,6 +15,7 @@
 		B7663ABD1ADC0AB9001348A5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7663ABB1ADC0AB9001348A5 /* LaunchScreen.xib */; };
 		B7663AC91ADC0ABA001348A5 /* DelegationsAndProtocolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7663AC81ADC0ABA001348A5 /* DelegationsAndProtocolsTests.m */; };
 		B7663AD51ADC0B31001348A5 /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = B7663AD41ADC0B31001348A5 /* Task.m */; };
+		CCDE5C291ADC85AD00838B1A /* TaskDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCDE5C281ADC85AD00838B1A /* TaskDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,8 @@
 		B7663AC81ADC0ABA001348A5 /* DelegationsAndProtocolsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DelegationsAndProtocolsTests.m; sourceTree = "<group>"; };
 		B7663AD31ADC0B31001348A5 /* Task.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Task.h; sourceTree = "<group>"; };
 		B7663AD41ADC0B31001348A5 /* Task.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Task.m; sourceTree = "<group>"; };
+		CCDE5C271ADC85AD00838B1A /* TaskDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskDelegate.h; sourceTree = "<group>"; };
+		CCDE5C281ADC85AD00838B1A /* TaskDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +131,8 @@
 			children = (
 				B7663AD31ADC0B31001348A5 /* Task.h */,
 				B7663AD41ADC0B31001348A5 /* Task.m */,
+				CCDE5C271ADC85AD00838B1A /* TaskDelegate.h */,
+				CCDE5C281ADC85AD00838B1A /* TaskDelegate.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -233,6 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B7663AD51ADC0B31001348A5 /* Task.m in Sources */,
+				CCDE5C291ADC85AD00838B1A /* TaskDelegate.m in Sources */,
 				B7663AB51ADC0AB9001348A5 /* ViewController.m in Sources */,
 				B7663AB21ADC0AB9001348A5 /* AppDelegate.m in Sources */,
 				B7663AAF1ADC0AB9001348A5 /* main.m in Sources */,
@@ -430,6 +436,7 @@
 				B7663ACE1ADC0ABA001348A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B7663ACF1ADC0ABA001348A5 /* Build configuration list for PBXNativeTarget "DelegationsAndProtocolsTests" */ = {
 			isa = XCConfigurationList;
@@ -438,6 +445,7 @@
 				B7663AD11ADC0ABA001348A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

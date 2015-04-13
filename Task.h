@@ -8,22 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
-// Forward declaration of the task class
-@class Task;
+#import "TaskDelegate.h"
 
-// Implementation of the task delegate protocol
-@protocol TaskDelegate <NSObject>
-
-// Optional simpleTask delegate method
-@optional
-- (void)simpleTask:(NSString *)theOptionalTask;
-
-// Required requiredTask delegate method
-@required
-- (void)requiredTask:(NSString *)theRequiredTask;
-
-
-@end
 
 @interface Task : NSObject
 
